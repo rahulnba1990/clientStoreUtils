@@ -83,8 +83,12 @@ Include the script in your webpage either in header or body.
  | ---------- | ------- |
  | name | key name of the item you want to store |
  | data | value of the item you want to store |
+ | days | (optional) age of cookie in days |
+ | hours | (optional) age of cookie in hours |
+ | minutes | (optional) age of cookie in miutes |
+ | seconds | (optional) age of cookie in seconds |
  | format | (optional) Set JSON as format if you want to store JSON object in cookie |
- 
+ *Note: At least one from days,hours,minutes and seconds is mandatory.
  
  ### clientStoreUtils.removeCookie
  To remove item from cookie
